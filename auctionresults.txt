@@ -1,0 +1,60 @@
+ Here are the buyers
+bid name : buyer1 bidID : 1, Bid Type : b ,  Price is : 132 ,  Quantity is : *13
+bid name : buyer2 bidID : 2, Bid Type : b ,  Price is : 65 ,  Quantity is : *35
+bid name : buyer3 bidID : 3, Bid Type : b ,  Price is : 100 ,  Quantity is : *1
+bid name : buyer4 bidID : 4, Bid Type : b ,  Price is : 75 ,  Quantity is : *6
+bid name : buyer5 bidID : 5, Bid Type : b ,  Price is : 57 ,  Quantity is : *11
+bid name : buyer6 bidID : 6, Bid Type : b ,  Price is : 84 ,  Quantity is : *48
+bid name : buyer7 bidID : 7, Bid Type : b ,  Price is : 137 ,  Quantity is : *49
+bid name : buyer8 bidID : 8, Bid Type : b ,  Price is : 90 ,  Quantity is : *28
+bid name : buyer9 bidID : 9, Bid Type : b ,  Price is : 113 ,  Quantity is : *14
+bid name : buyer10 bidID : 10, Bid Type : b ,  Price is : 105 ,  Quantity is : *5
+
+Here are the sellers
+bid name : Seller 1 bidID : 11, Bid Type : a ,  Price is : 105 ,  Quantity is : *46
+bid name : Seller 2 bidID : 12, Bid Type : a ,  Price is : 99 ,  Quantity is : *37
+bid name : Seller 3 bidID : 13, Bid Type : a ,  Price is : 111 ,  Quantity is : *19
+bid name : Seller 4 bidID : 14, Bid Type : a ,  Price is : 139 ,  Quantity is : *9
+bid name : Seller 5 bidID : 15, Bid Type : a ,  Price is : 82 ,  Quantity is : *12
+bid name : Seller 6 bidID : 16, Bid Type : a ,  Price is : 93 ,  Quantity is : *35
+bid name : Seller 7 bidID : 17, Bid Type : a ,  Price is : 132 ,  Quantity is : *10
+bid name : Seller 8 bidID : 18, Bid Type : a ,  Price is : 92 ,  Quantity is : *10
+bid name : Seller 9 bidID : 19, Bid Type : a ,  Price is : 68 ,  Quantity is : *44
+bid name : Seller 10 bidID : 20, Bid Type : a ,  Price is : 63 ,  Quantity is : *40
+
+Here starts the matched bids
+
+bid name : buyer1 bidID : 1 ,  Bid Type : b ,  Price is : 132 ,  Quantity is : *13 With <==> bid name : Seller 1 bidID : 11, Bid Type : a ,  Price is : 105 ,  Quantity is : *46 With clearing price 118.5
+
+bid name : buyer2 bidID : 2 ,  Bid Type : b ,  Price is : 65 ,  Quantity is : *35 With <==> bid name : Seller 10 bidID : 20, Bid Type : a ,  Price is : 63 ,  Quantity is : *40 With clearing price 64
+
+bid name : buyer3 bidID : 3 ,  Bid Type : b ,  Price is : 100 ,  Quantity is : *1 With <==> bid name : Seller 2 bidID : 12, Bid Type : a ,  Price is : 99 ,  Quantity is : *37 With clearing price 99.5
+
+bid name : buyer4 bidID : 4 ,  Bid Type : b ,  Price is : 75 ,  Quantity is : *6 With <==> bid name : Seller 9 bidID : 19, Bid Type : a ,  Price is : 68 ,  Quantity is : *44 With clearing price 71.5
+
+bid name : buyer6 bidID : 6 ,  Bid Type : b ,  Price is : 84 ,  Quantity is : *48 With <==> bid name : Seller 5 bidID : 15, Bid Type : a ,  Price is : 82 ,  Quantity is : *12 With clearing price 83
+
+bid name : buyer6 bidID : 6 ,  Bid Type : b ,  Price is : 84 ,  Quantity is : *36 With <==> bid name : Seller 9 bidID : 19, Bid Type : a ,  Price is : 68 ,  Quantity is : *38 With clearing price 76
+
+bid name : buyer7 bidID : 7 ,  Bid Type : b ,  Price is : 137 ,  Quantity is : *49 With <==> bid name : Seller 1 bidID : 11, Bid Type : a ,  Price is : 105 ,  Quantity is : *33 With clearing price 121
+
+bid name : buyer7 bidID : 7 ,  Bid Type : b ,  Price is : 137 ,  Quantity is : *16 With <==> bid name : Seller 2 bidID : 12, Bid Type : a ,  Price is : 99 ,  Quantity is : *36 With clearing price 118
+
+bid name : buyer8 bidID : 8 ,  Bid Type : b ,  Price is : 90 ,  Quantity is : *28 With <==> bid name : Seller 9 bidID : 19, Bid Type : a ,  Price is : 68 ,  Quantity is : *2 With clearing price 79
+
+bid name : buyer8 bidID : 8 ,  Bid Type : b ,  Price is : 90 ,  Quantity is : *26 With <==> bid name : Seller 10 bidID : 20, Bid Type : a ,  Price is : 63 ,  Quantity is : *5 With clearing price 76.5
+
+bid name : buyer9 bidID : 9 ,  Bid Type : b ,  Price is : 113 ,  Quantity is : *14 With <==> bid name : Seller 2 bidID : 12, Bid Type : a ,  Price is : 99 ,  Quantity is : *20 With clearing price 106
+
+bid name : buyer10 bidID : 10 ,  Bid Type : b ,  Price is : 105 ,  Quantity is : *5 With <==> bid name : Seller 2 bidID : 12, Bid Type : a ,  Price is : 99 ,  Quantity is : *6 With clearing price 102
+
+Here starts the unmatched bids
+bid name : buyer5 bidID : 5, Bid Type : b ,  Price is : 57 ,  Quantity is : *11
+bid name : buyer8 bidID : 8, Bid Type : b ,  Price is : 90 ,  Quantity is : *21
+bid name : Seller 2 bidID : 12, Bid Type : a ,  Price is : 99 ,  Quantity is : *1
+bid name : Seller 3 bidID : 13, Bid Type : a ,  Price is : 111 ,  Quantity is : *19
+bid name : Seller 4 bidID : 14, Bid Type : a ,  Price is : 139 ,  Quantity is : *9
+bid name : Seller 6 bidID : 16, Bid Type : a ,  Price is : 93 ,  Quantity is : *35
+bid name : Seller 7 bidID : 17, Bid Type : a ,  Price is : 132 ,  Quantity is : *10
+bid name : Seller 8 bidID : 18, Bid Type : a ,  Price is : 92 ,  Quantity is : *10
+
